@@ -1,0 +1,481 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/apple-touch-icon-precomposed.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/manifest.json">
+	<link rel="mask-icon" href="https://www.engin.umich.edu/wp-content/themes/coe-um/dist/assets/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <title>The Michigan Engineer Magizine</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="nav" role="navigation">
+      <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
+        <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+        <div class="title-bar-title">The Michigan Engineer</div>
+      </div>
+      <div class="top-bar" id="example-menu">
+        <div class="nav__logo show-for-large">
+          <a href="https://news.engin.umich.edu/"><img src="assets/img/engineer_logo.png" alt="Michigan Engineer Magizine logo"></a>
+        </div>
+        <div class="top-bar-left">
+          <ul class="large-horizontal vertical menu" data-responsive-menu="drilldown" data-auto-height="true" data-dropdown-menu>
+            <div class="column show-for-small-only">
+              <ul class="menu vertical">
+                <form action="//www-search.engin.umich.edu/search" class="searchform" id="cse-search-box">
+                  <input name="cx" type="hidden" value="YOUR GCSE CX VALUE HERE">
+                  <input name="ie" type="hidden" value="UTF-8">
+                  <label for="q" style="display: none;">x</label>
+                  <input class="search-box" id="q" name="q" onfocus="document.getElementById('q').value=''" type="text" placeholder="Search...">
+                  <input type="submit" class="search-button" value="search">
+                </form>
+                <!-- Note: Google search isn't the best when it comes to accessability. jQuery injection has been set up in default.html file. This just as an example of how it can be set up, but true testing can happen when Google Custom Search is set up. Below is a reference URL where i found the code and setup. -->
+                <!-- https://www.percussion.com/blog/2016/March/accessible-google-custom-search.html -->
+              </ul>
+            </div>
+            <div class="nav__links large-horizontal vertical menu">
+              <li class="nav__border-color--red"><a href="https://news.engin.umich.edu/category/research/">Research</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">One</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Two</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Three</a></li>
+              <li class="nav__border-color--lblue"><a href="https://news.engin.umich.edu/category/campus-comm/ ">Campus and Community</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">One</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Two</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Three</a></li>
+              <li class="nav__border-color--orange"><a href="#">By Department</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">One</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Two</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Three</a></li>
+              <li class="nav__border-color--green"><a href="https://news.engin.umich.edu/videos/ ">Video</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">One</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Two</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Three</a></li>
+              <li class="nav__border-color--gyellow"><a href="https://news.engin.umich.edu/features/ ">In-Depth</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">One</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Two</a></li>
+              <li class="hide-for-large nav__links--mobile"><a href="#">Three</a></li>
+            </div>
+            <div class="column">
+              <div class="nav__social horizontal menu">
+                <li><a href="http://www.facebook.com/michigan.engineering" aria-label="Facebook link"><i class="fab fa-facebook-f" aria-hidden="true"></a></i></li>
+                <li><a href="http://www.twitter.com/UMengineering" aria-label="Twitter link"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="http://instagram.com/michiganengineering" aria-label="Instagram link"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.youtube.com/user/michiganengineering" aria-label="YouTube link"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>            
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+    
+            <div class="column horizontal menu show-for-large">
+              <li><a data-toggle="search-menu" href="#"><i class="fa fa-search nav__search" aria-hidden="true"></i></a></li>
+            </div>
+            <div class="column horizontal menu show-for-large">
+              <li><a class="nav__menu" data-toggle="mega-menu" id="nav-toggle" href="#"><span></span></a>
+            </div>
+            </li>
+            <!-- <li><input type="search" placeholder="Search"></li>
+          <li><button type="button" class="button">Search</button></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="mega-menu">
+        <div class="dropdown-pane mega-menu bottom" id="mega-menu" data-dropdown data-options="closeOnClick:true; hover: false; hoverPane: false; vOffset:35">
+          <div class="row expanded">
+            <div class="column">
+              <ul class="menu vertical">
+                <li><a href="https://news.engin.umich.edu/category/research/">Research</a></li>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="menu vertical">
+                <li><a href="https://news.engin.umich.edu/category/campus-comm/ ">Campus and Community</a></li>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="menu vertical">
+                <li><a href="#">By Department</a></li>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="menu vertical">
+                <li><a href="https://news.engin.umich.edu/videos/ ">Video</a></li>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul class="menu vertical">
+                <li><a href="https://news.engin.umich.edu/features/ ">In-Depth</a></li>
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mega-menu search-menu">
+        <div class="dropdown-pane mega-menu bottom" id="search-menu" data-dropdown data-options="closeOnClick:true; hover: false; hoverPane: false; vOffset:11">
+          <div class="row expanded">
+            <div class="column">
+              <ul class="menu vertical">
+                <form action="//www-search.engin.umich.edu/search" class="searchform" id="cse-search-box">
+                  <input name="cx" type="hidden" value="YOUR GCSE CX VALUE HERE">
+                  <input name="ie" type="hidden" value="UTF-8">
+                  <label for="q" style="display: none;">x</label>
+                  <input class="search-box" id="q" name="q" onfocus="document.getElementById('q').value=''" type="text" placeholder="Search...">
+                  <input type="submit" class="search-button" value="search">
+                </form>
+                <!-- Note: Google search isn't the best when it comes to accessability. jQuery injection has been set up in default.html file. This just as an example of how it can be set up, but true testing can happen when Google Custom Search is set up. Below is a reference URL where i found the code and setup. -->
+                <!-- https://www.percussion.com/blog/2016/March/accessible-google-custom-search.html -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+    
+    <!-- Hero container -->
+      <div class="hero">
+        <div class="hero__featuredtopics">
+          <span class="hero__featuredtopics--banner">Featured Topics</span>
+          <span><a href="https://news.engin.umich.edu/extreme-weather/">Climate Change</a></span>
+          <span aria-hidden="true">&middot;</span>
+          <span><a href="https://news.engin.umich.edu/?s=flint+water ">Flint Water Crisis</a></span>
+          <span aria-hidden="true">&middot;</span>
+          <span><a href="https://news.engin.umich.edu/cybersecurity/ ">Hacking the Vote</a></span>
+          <span aria-hidden="true">&middot;</span>
+          <span><a href="https://news.engin.umich.edu/driverless-cars/">Driverless Cars</a></span>
+          <span aria-hidden="true">&middot;</span>
+          <span><a href="https://news.engin.umich.edu/clean-energy/">Clean Energy</a></span>
+          <span aria-hidden="true">&middot;</span>
+          <span><a href="https://news.engin.umich.edu/?s=injectable+computers">Injectable Computers</a></span>
+        </div>
+      <div class="row">
+    <div class="small-12 medium-12 columns hero__lrgimg">
+      <a href="https://news.engin.umich.edu/2017/09/latest-two-legged-walking-robot-arrives-at-michigan/ "><img src="assets/img/walking.jpg" alt="Man Contolling a walking robot in an engineering lab">
+      <div class="show-for-medium hero__text">
+        <h2>Walking Robots</h2>
+        <p>This freestanding bot can climb stairs</p>
+      </div>
+      <div class="show-for-small-only hero__subtext">
+        <h2>Walking Robots</h2>
+        <p>This freestanding bot can climb stairs</p>
+      </div></a>
+    </div>
+    </div>
+    <div class="row">
+    <div class="small-12 medium-6 columns hero__smlimg">
+      <a href="https://news.engin.umich.edu/2016/06/injectable-computers-can-broadcast-from-inside-the-body/"><img src="assets/img/injectable.jpg" alt="Computer chip in an injectable syringe">
+      <div class="hero__subtext">
+        <h2>Injectable computers</h2>
+        <p>A radio specifically designed to communicate through tissue.</p>
+      </div></a>
+    </div>
+    <div class="small-12 medium-6 columns hero__smlimg">
+      <a href="https://news.engin.umich.edu/2016/07/solar-power-plant/"><img src="assets/img/solar-plant.jpg" alt="Large field of solar panels">
+      <div class="hero__subtext">
+        <h2>Solar power plant gets $1.4M grant</h2>
+        <p>Nanotechnology could reduce the cost of a solar thermal power plant.</p>
+      </div></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!--END Hero container -->
+    
+    <!-- Video container -->
+    <div class="video">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="small-12 medium-12 large-4 small-order-2 medium-order-2 large-order-1 column listing">
+            <div class="video__tabs">
+              <h2>video</h2>
+              <ul class="vertical tabs" data-tabs id="example-tabs">
+                <li class="tabs-title is-active">
+                  <a href="#panel1v" aria-selected="true">Faster WW2 Plane</a>
+                  <p>But can it make frittatas?</p>
+                </li>
+                <li class="tabs-title">
+                  <a href="#panel2v">Internet of Water</a>
+                  <p>Water has internet?</p>
+                </li>
+                <li class="tabs-title">
+                  <a href="#panel3v">Squeezable phones</a>
+                  <p>Squeeze phone?</p>
+                </li>
+                <li class="video__more">
+                  <a href="https://www.youtube.com/user/michiganengineering">More videos <span aria-hidden="true">&raquo;</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="small-12 medium-12 large-8 small-order-1 medium-order-1 large-order-2 column video_wrapper">
+            <div class="tabs-content" data-tabs-content="example-tabs">
+              <div class="tabs-panel is-active" id="panel1v">
+                <div class="responsive-embed widescreen">
+                  <iframe width="550" height="305" src="https://www.youtube.com/embed/YykKL03Gx7c" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="tabs-panel" id="panel2v">
+                <div class="responsive-embed widescreen">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/VHFSPdMDEg4" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="tabs-panel" id="panel3v">
+                <div class="responsive-embed widescreen">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/t7Ixd_KE_10  " frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Video container -->
+    
+    <!-- News container -->
+    <div class="news">
+      <div class="row">
+      <div class="small-12 medium-4 large-4 columns">
+        <div class="news__image">
+          <img src="assets/img/solar-car.jpg" class="" alt="University of Michigan solar car driving down a road">
+            <div class="news__banner">
+              <a href="#">Recent Michigan Engineering News</a>
+              <span aria-hidden="true">&raquo;</span>
+            </div>
+        </div>
+        <div class="news__bread">
+          <span>news</span>
+          <span aria-hidden="true">&vellip;</span>
+          <span>chemical</span>
+        </div>
+        <div class="news__featured">
+          <h2>
+            <a href="#">U-Michigan Solar Car to defend title in race through National Parks</a>
+          </h2>
+          <p>The 8-day, 1,900-mile race starts at Cuyahoga Valley National Park in Ohio.</p>
+          <div class="news__featured--more">
+            <ul>
+              <li>Engineering a massive Rubik's Cube</li>
+              <li>Pascal Van Hentenryck leads new public urban transportation project</li>
+              <li>MARLO makes initial attempts at the Wave Field</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-4 large-4 columns">
+        <div class="news__image">
+          <img src="assets/img/space.jpg" alt="Large satellite flying through space">
+          <div class="news__banner">
+            <a href="#">U-M Engineering Research News</a>
+            <span aria-hidden="true">&raquo;</span>
+          </div>
+        </div>
+        <div class="news__bread">
+          <span>research</span>
+          <span aria-hidden="true">&vellip;</span>
+          <span>Climate &amp; space science</span>
+        </div>
+        <div class="news__featured">
+          <h2>
+            <a href="#">Arrival at Jupiter: U-M researcher involved in historic Juno misson</a>
+          </h2>
+          <p>After a five-year journey to Jupiter, the Juno spacecraft enters orbit around the gas giant world July 4.</p>
+          <div class="news__featured--more">
+            <ul>
+              <li>Solar power plant: $1.4M grants aims to cut costs</li>
+              <li>Student team recieves $15,000 NASA grant</li>
+              <li>IOE Ph.D.s recieve Rackham research grants</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-4 large-4 columns">
+        <div class="news__image">
+          <img src="assets/img/fly-boat.jpg" alt="Sailboat gliding over the water">
+          <div class="news__banner">
+            <a href="#">Campus and Community</a>
+            <span aria-hidden="true">&raquo;</span>
+          </div>
+        </div>
+        <div class="news__bread">
+          <span>blog</span>
+          <span aria-hidden="true">&vellip;</span>
+          <span>aerospace</span>
+        </div>
+        <div class="news__featured">
+        <h2>
+          <a href="#">Fly Fly Fly Your Boat</a>
+        </h2>
+        <p>The world's fastest sailing team, Oracle USA, partners with Michigan Aerospace as they prepare to defend their championship title.</p>
+        <div class="news__featured--more">
+          <ul>
+            <li>U-M Baja: One victory Closer to Defending Their Championship Title</li>
+            <li>North Campus - The Minecraft Version</li>
+            <li>Burns is a ChE Professor You Should Know</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- END News container -->
+    
+
+    <footer>
+      <!-- Magizine container -->
+      <div class="magazine">
+        <h2>Inside the Michigan Engineer Magazine</h2>
+        <div class="row">
+    
+        <div class="small-6 medium-3 large-3 column">
+    
+          <img src="assets/img/michigan-engineer-spring-17.png" alt="Cover of Michigan Engineer magazine Spring 2017 issue">
+          <div>
+            <h3>Spring 2017 Issue</h3>
+            <ul class="show-for-medium">
+              <li>Power Grid Down</li>
+              <li>Blackhawk Down</li>
+              <li>Watership Down</li>
+              <li>Downton Abbey</li>
+            </ul>
+          </div>
+        </div>
+        <div class="small-6 medium-3 large-3 column">
+          <img src="assets/img/michigan-engineer-fall-16.png" alt="Cover of Michigan Engineer magazine Fall 2016 issue">
+          <div>
+            <h3>Fall 2016 Issue</h3>
+            <ul class="show-for-medium">
+              <li>Ready or Not, Here They Come</li>
+              <li>Red Rover, Send a Drone Right Over</li>
+              <li>Simon Says, Sustainable</li>
+              <li>Duck, Duck, Duck, Autonomous Cars</li>
+            </ul>
+          </div>
+        </div>
+        <div class="small-6 medium-3 large-3 column">
+          <img src="assets/img/michigan-engineer-spring-16.png" alt="Cover of Michigan Engineer magazine Spring 2016 issue">
+          <div>
+            <h3>Spring 2016 Issue</h3>
+            <ul class="show-for-medium">
+              <li>Mild or Brain</li>
+              <li>Mind or Manners</li>
+              <li>Mind or Gap</li>
+              <li>Mind or Matter</li>
+            </ul>
+          </div>
+        </div>
+        <div class="small-6 medium-3 large-3 column">
+          <img src="assets/img/michigan-engineer-fall-15.png" alt="Cover of Michigan Engineer magazine Fall 2015 issue">
+          <div>
+            <h3>Fall 2015 Issue</h3>
+            <ul class="show-for-medium">
+              <li>Is it Time for Humans to Leave the Cockpit?</li>
+              <li>Is it Time for Dogs to Copilot?</li>
+              <li>Is it time for Cats to Govern?</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- END Magizine container -->
+    
+      <div class="row">
+        <div class="small-12 medium-3 large-2 columns">
+          <div class="footer__logo">
+            <img src="assets/img/CoE-vert-rev-PMS.svg" alt="College of Engineering | University of Michigan" scale="0">
+          </div>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+          <div class="row align-spaced">
+        <div class="small-6 medium-4 large-4 columns">
+          <h3>Michigan Engineering</h3>
+          <ul>
+            <li>College of Engineering</li>
+            <li>1221 Beal Avenue</li>
+            <li>Ann Arbor, MI 48109-2102</li>
+            <li>+1 (734) 647-7000</li>
+            <li>engin-info@umich.edu</li>
+          </ul>
+        </div>
+        <div class="small-6 medium-4 large-4 columns">
+    
+          <h3>College of Engineering</h3>
+          <ul>
+            <li><a href="https://www.engin.umich.edu/about">About</a></li>
+            <li><a href="https://www.engin.umich.edu/research">Research</a></li>
+            <li><a href="https://www.engin.umich.edu/academics">Academics</a></li>
+            <li><a href="https://www.engin.umich.edu/admissions">Admissions</a></li>
+            <li><a href="https://www.engin.umich.edu/departments">Departments</a></li>
+            <li><a href="https://www.engin.umich.edu/giving/">Giving</a></li>
+            <li><a href="https://www.engin.umich.edu/faculty-staff/">Info for you</a></li>
+          </ul>
+        </div>
+        <div class="small-12 medium-4 large-4 columns">
+          <h3>Follow us</h3>
+          <ul>
+            <li><a href="http://www.facebook.com/michigan.engineering">Facebook</a></li>
+            <li><a href="http://www.twitter.com/UMengineering">Twitter</a></li>
+            <li><a href="http://instagram.com/michiganengineering">Instagram</a></li>
+            <li><a href="https://news.engin.umich.edu/wp-content/themes/menc/dist/assets/images/BotSC.jpg">Snapchat</a></li>
+            <li><a href="http://pinterest.com/umengineering/">Pinterest</a></li>
+            <li><a href="http://www.linkedin.com/edu/school?id=42083">Linkedin</a></li>
+            <li><a href="http://www.youtube.com/user/michiganengineering">YouTube</a></li>
+            <li><a href="http://michiganengineering.tumblr.com/">Tumblr</a></li>
+            <li><a href="https://plus.google.com/111653579154776311686/posts">Google+</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+    </footer>
+
+    <script>
+      var imgAltTagsFix = function() {
+        $('img.gsc-branding-img').attr("alt", "Google Custom Search Branding");
+        $('input.gsc-search-button').attr('alt', "Google Custom Search Button");
+      };
+      window.__gcse = {
+        callback: imgAltTagsFix
+      };
+
+      (function() {
+        var cx = '000000000000000000000:xxxxxxxxxxx';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
